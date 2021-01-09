@@ -1,11 +1,12 @@
 import setuptools
 
-
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 
 setuptools.setup(
     name ="MenuBuilder",
-    version="1.0",
+    version="1.1",
     author = "Ewen",
     author_email = "1lorimerewe2@gmail.com",
     description = "A simple commandline menu builder",
