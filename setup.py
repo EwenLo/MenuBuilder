@@ -6,10 +6,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name ="MenuBuilder",
-    version="1.1",
+    version="1.2",
     author = "Ewen",
     author_email = "1lorimerewe2@gmail.com",
     description = "A simple commandline menu builder",
+    long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/OOgaboogaboog/MenuBuilder",
     packages= setuptools.find_packages(),
