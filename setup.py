@@ -7,7 +7,6 @@ with open("README.md","r") as fh:
 setuptools.setup(
     name ="MenuBuilder",
     version="1.0",
-    scripts= "MenuBuild.py",
     author = "Ewen",
     author_email = "1lorimerewe2@gmail.com",
     description = "A simple commandline menu builder",
